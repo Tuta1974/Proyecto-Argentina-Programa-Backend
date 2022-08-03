@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = "https://porfolio-gustavo-a-romero.firebaseapp.com/")
+
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;

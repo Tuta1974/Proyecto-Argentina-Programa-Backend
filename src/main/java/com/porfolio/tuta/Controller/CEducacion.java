@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/edu")
-@CrossOrigin(origins = "https://porfolio-gustavo-a-romero.firebaseapp.com/")
+
 public class CEducacion {
     @Autowired
     EducacionService educacionService;
