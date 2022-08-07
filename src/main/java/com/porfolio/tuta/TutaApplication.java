@@ -24,7 +24,7 @@ public class TutaApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 
-				registry.addMapping("/**").allowedOrigins("https://porfolio-gustavo-a-romero.web.app/");
+				registry.addMapping("/**").allowedOrigins("https://porfolio-gustavo-a-romero.firebaseapp.com");
 			}
 		};
 	}
@@ -32,7 +32,7 @@ public class TutaApplication {
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
 		corsConfiguration.setAllowCredentials(true);
-		corsConfiguration.setAllowedOrigins(Arrays.asList("https://porfolio-gustavo-a-romero.web.app/"));
+		corsConfiguration.setAllowedOrigins(Arrays.asList("https://porfolio-gustavo-a-romero.firebaseapp.com"));
 
 		corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
 				"Accept", "Authorization", "Origin, Accept", "X-Requested-With",
