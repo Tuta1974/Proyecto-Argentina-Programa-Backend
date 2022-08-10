@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/skills")
-@CrossOrigin(origins = "https://porfolio-gustavo-a-romero.web.app ")
+@CrossOrigin(origins = "https://porfolio-gustavo-a-romero.web.app")
 public class CSkills {
     @Autowired
     SkillService skillService;
